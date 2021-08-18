@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^(.+)\.php - [F,L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#ErrorDocument 404 /WebKev/error.php
