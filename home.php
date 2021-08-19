@@ -43,6 +43,29 @@
                 <button class="course_btn" onclick="getfile('courses');return false;">Courses</button>
             </div>
         </div>
+        <div class="main" id="home">
+            <div class="course__container">
+                <div class="text-box" id="left">
+                    <h1>Dummy text</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                        hic porro, aliquam repudiandae accusantium iste facere vel
+                        voluptatem enim voluptates rerum amet, architecto culpa temporibus
+                        dignissimos at? Fuga, nobis molestiae!
+                    </p>
+                </div>
+                <div class="text-box" id="left">
+                    <h1>Dummy text</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                        hic porro, aliquam repudiandae accusantium iste facere vel
+                        voluptatem enim voluptates rerum amet, architecto culpa temporibus
+                        dignissimos at? Fuga, nobis molestiae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum eligendi itaque asperiores cumque voluptate at sunt, sint explicabo velit ullam aperiam saepe ducimus molestiae corrupti obcaecati sed assumenda voluptatum quas.
+                    </p>
+                </div>
+            </div>
+            <hr>
+        </div>
     </body>
     <script>
         function getfile(data) {

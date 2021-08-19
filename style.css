@@ -3,7 +3,7 @@
 
 :root {
     --main-font: 'Caveat', cursive;
-    --btn-font: 'Raleway', sans-serif;
+    --sec-font: 'Raleway', sans-serif;
     --nav-font: 'Open Sans', arial, sans-serif;
     --green: #12891b;
     --blue: #009dff;
@@ -141,7 +141,7 @@ body, html {
 
 .course_btn {
     margin-top: 30px;
-    font-family: var(--btn-font);
+    font-family: var(--sec-font);
     outline: none;
     border: 2px solid var(--blue);
     background-color: var(--blue);
@@ -156,4 +156,46 @@ body, html {
     background-color: var(--dblue);
     border: 2px solid rgba(219, 237, 255, 0.5);
     cursor: pointer;
+}
+
+.main {
+    padding-bottom: 2rem;
+}
+
+.course__container {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-box {
+    text-align: center;
+    border-radius: 1px;
+    margin: 50px 50px;
+}
+
+#left {
+    text-align: left;
+}
+
+#right {
+    text-align: left;
+}
+
+.text-box p {
+    font-family: var(--sec-font);
+    margin: 0;
+    margin-top: 20px;
+}
+
+.text-box h1 {
+    font-family: var(--main-font);
+    font-size: 50px;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid #D3D3D3;
+    margin: 0 50px;
 }
