@@ -41,7 +41,7 @@
     </body>
     <script>
         function getfile(data) {
-            var file = data;
+                var file = data;
             $('body').load(file, function() {
                 $(this)
                     .css("opacity", 0)

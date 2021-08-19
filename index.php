@@ -40,8 +40,9 @@
         </div>
     </body>
     <script>
+        history.pushState(null, null, "home");
         function getfile(data) {
-            var file = data;
+                var file = data;
             $('body').load(file, function() {
                 $(this)
                     .css("opacity", 0)
