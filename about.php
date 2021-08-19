@@ -29,6 +29,9 @@
                         <li class="navbar__item">
                             <a href="" onclick="getfile('about');return false;" class="navbar__links" id="highlighted">About Us</a>
                         </li>
+                        <div class="navbar__item">
+                            <a href="" onclick="getfile('courses');return false;" class="navbar__links" id="courses">Courses</a>
+                        </div>
                     </ul>
                 </div>
             </nav>

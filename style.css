@@ -3,9 +3,11 @@
 
 :root {
     --main-font: 'Caveat', cursive;
+    --btn-font: 'Raleway', sans-serif;
     --nav-font: 'Open Sans', arial, sans-serif;
     --green: #12891b;
     --blue: #009dff;
+    --dblue: #0080ff;
 }
 
 * {
@@ -32,7 +34,7 @@ body, html {
     top: 0;
     width: 100%;
     bottom: 0;
-    max-height: 100px;
+    max-height: 150px;
 }
 
 .navbar__menu {
@@ -50,7 +52,7 @@ body, html {
 .navbar__item {
     height: 20px;
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 0px;
 } 
 
 .navbar__logo {
@@ -122,16 +124,36 @@ body, html {
 }
 
 .hero__heading {
-    padding-top: 4%;
+    padding-top: 0;
     font-size: 1.4rem;
 }
   
 .hero__description {
-    padding-top:150px;
-    font-size: 3rem;
+    padding-top:100px;
+    font-size: 5rem;
+    margin: 0;
 }
 
 .hero__container {
     background-color: rgba(0, 157, 255, 0.5);
     height: 100%;
+}
+
+.course_btn {
+    margin-top: 30px;
+    font-family: var(--btn-font);
+    outline: none;
+    border: 2px solid var(--blue);
+    background-color: var(--blue);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 78px;
+    transition: all 0.3s ease;
+}
+
+.course_btn:hover {
+    background-color: var(--dblue);
+    border: 2px solid rgba(219, 237, 255, 0.5);
+    cursor: pointer;
 }
