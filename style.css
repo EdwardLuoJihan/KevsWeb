@@ -394,3 +394,44 @@ hr {
 #email:hover {
     color: var(--blue)!important;
 }
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+#dropdown-content {
+    opacity:0;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    padding-top: 5px;
+    width: 150px;
+    z-index: 1;
+    text-align: left;
+}
+
+.navbar__links--classes {
+    font: bold 14px/1.4 var(--nav-font);
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: flex;
+    position: relative;
+    align-items: left;
+    justify-content: left;
+    text-decoration: none;
+    height: 100%;
+    margin-left: 0;
+    max-width: 100%;
+}
+
+#dropdown-content a {
+    transition: all 0.5s ease;
+}
+
+#dropdown-content a:hover {color: var(--blue);}
+
+#dropdown:hover #dropdown-content {display: block;opacity: 1;
+    transition: all 0.5s ease;}

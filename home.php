@@ -30,14 +30,18 @@
                 </div>
                 <ul class="navbar__menu">
                     <li class="navbar__item">
-                        <a href="home" onclick="getfile('home')" class="navbar__links" id="highlighted">Home</a>
+                      <a href="home" onclick="getfile('home')" class="navbar__links" id="highlighted">Home</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
+                      <a href="about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
                     </li>
-                    <li class="navbar__item">
-                        <a href="classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
-                    </li>
+                    <div class="navbar__item" id="dropdown">
+                      <a href="classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
+                      <div id="dropdown-content">
+                        <a href="classes/math" class="navbar__links--classes">Math</a>
+                        <a href="classes/language-arts" class="navbar__links--classes">Language Arts</a>
+                      </div>
+                    </div>
                 </ul>
             </div>
         </nav>
