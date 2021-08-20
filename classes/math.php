@@ -36,9 +36,9 @@
                             <a href="../about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
                         </li>
                         <div class="navbar__item" id="dropdown">
-                          <a href="../classes" onclick="getfile('classes')" class="navbar__links" id="highlighted">Classes</a>
+                          <a href="../classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
                           <div id="dropdown-content">
-                            <a href="math" class="navbar__links--classes">Math</a>
+                            <a href="math" class="navbar__links--classes" id="highlighted">Math</a>
                             <a href="language-arts" class="navbar__links--classes">Language Arts</a>
                           </div>
                         </div>
