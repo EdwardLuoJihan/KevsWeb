@@ -61,7 +61,7 @@
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
                         dignissimos at? Fuga, nobis molestiae!
                     </p>
-                    <a href="class/math" class='learnmore'>Learn more <span>»</span></a>
+                    <a href="classes/math" class='learnmore'>Learn more <span>»</span></a>
                 </div>
                 
                 <div class="text-box" id="left">
@@ -72,7 +72,7 @@
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
                         dignissimos at? Fuga, nobis molestiae!
                     </p>
-                    <a href="class/language-arts" class='learnmore'>Learn more <span>»</span></a>
+                    <a href="classes/language-arts" class='learnmore'>Learn more <span>»</span></a>
                 </div>
             </div>
             <hr>

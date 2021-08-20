@@ -1,4 +1,5 @@
 RewriteEngine on
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
+DirectorySlash Off
 
 #ErrorDocument 404 /WebKev/error.php
