@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="queries.css" />
         <title>Kev Web</title>
     </head>
-    <body>
+    <body onload="document.body.style.opacity='1'">
         <nav>
             <div class="navbar__container" id="navbar">
                 <div class="navbar__logo">
@@ -24,13 +24,13 @@
                 </div>
                 <div class="navbar__menu">
                     <div class="navbar__item">
-                        <a href="" onclick="getfile('home');return false;" class="navbar__links" id="highlighted">Home</a>
+                        <a href="home" onclick="getfile('home')" class="navbar__links" id="highlighted">Home</a>
                     </div>
                     <div class="navbar__item">
-                        <a href="" onclick="getfile('about');return false;" class="navbar__links" id="about">About Us</a>
+                        <a href="about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
                     </div>
                     <div class="navbar__item">
-                        <a href="" onclick="getfile('courses');return false;" class="navbar__links" id="courses">Courses</a>
+                        <a href="classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,9 @@
                 <p class="hero__description">
                     Dummy Text
                 </p>
-                <button class="course_btn" onclick="getfile('courses');return false;">Courses</button>
+                <div class="btn__container">
+                    <a href="classes" class="course_btn">Classes</a>
+                </div>
             </div>
         </div>
         <div class="main" id="home">
@@ -54,6 +56,7 @@
                         dignissimos at? Fuga, nobis molestiae!
                     </p>
                 </div>
+                
                 <div class="text-box" id="left">
                     <h1>Dummy text</h1>
                     <p>
@@ -62,24 +65,25 @@
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
                         dignissimos at? Fuga, nobis molestiae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum eligendi itaque asperiores cumque voluptate at sunt, sint explicabo velit ullam aperiam saepe ducimus molestiae corrupti obcaecati sed assumenda voluptatum quas.
                     </p>
+                    
                 </div>
             </div>
             <hr>
         </div>
     </body>
     <script>
+        $(document).ready(function() {
+            $("body").slideDown(2000);
+        });
         function getfile(data) {
-            var file = data;
-            $('body').load(file, function() {
+            $("body").load(data, function() {
                 $(this)
                     .css("opacity", 0)
                     .stop()
                     .animate({ opacity: 1 });
-                $(document).ready(function() {
-                    $("body").slideDown(2000);
-                });
+            $(document).ready(function() {
+                $("body").slideDown(2000);
             });
-            history.pushState(null, null, file);
         }
     </script>
 </html>

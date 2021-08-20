@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="queries.css" />
         <title>Kev Web</title>
     </head>
-    <body>
+    <body onload="document.body.style.opacity='1'">
         <nav>
             <div class="navbar__container" id="navbar">
                 <div class="navbar__logo">
@@ -24,13 +24,13 @@
                 </div>
                 <div class="navbar__menu">
                     <div class="navbar__item">
-                        <a href="" onclick="getfile('home');return false;" class="navbar__links" id="highlighted">Home</a>
+                        <a href="home" onclick="getfile('home')" class="navbar__links" id="highlighted">Home</a>
                     </div>
                     <div class="navbar__item">
-                        <a href="" onclick="getfile('about');return false;" class="navbar__links" id="about">About Us</a>
+                        <a href="about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
                     </div>
                     <div class="navbar__item">
-                        <a href="" onclick="getfile('courses');return false;" class="navbar__links" id="courses">Courses</a>
+                        <a href="classes" onclick="getfile('course')" class="navbar__links" id="classes">Classes</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <p class="hero__description">
                     Dummy Text
                 </p>
-                <button class="course_btn" onclick="getfile('courses');return false;">Courses</button>
+                <button class="course_btn" onclick="getfile('course')">Classes</button>
             </div>
         </div>
     </body>

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <title>Kev Web</title>
     </head>
-    <body>
+    <body onload="document.body.style.opacity='1'">
         <div id="page">
             <nav>
                 <div class="navbar__container" id="navbar">
@@ -24,13 +24,13 @@
                     </div>
                     <ul class="navbar__menu">
                         <li class="navbar__item">
-                            <a href="" onclick="getfile('home');return false;" class="navbar__links" id="home">Home</a>
+                            <a href="home" onclick="getfile('home')" class="navbar__links" id="home">Home</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="" onclick="getfile('about');return false;" class="navbar__links" id="highlighted">About Us</a>
+                            <a href="about" onclick="getfile('about')" class="navbar__links" id="highlighted">About Us</a>
                         </li>
                         <div class="navbar__item">
-                            <a href="" onclick="getfile('courses');return false;" class="navbar__links" id="courses">Courses</a>
+                            <a href="classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
                         </div>
                     </ul>
                 </div>

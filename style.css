@@ -18,6 +18,11 @@ body, html {
     margin: 0;
 }
 
+body {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
 #highlighted {
     color: var(--green);
 }
@@ -139,8 +144,17 @@ body, html {
     height: 100%;
 }
 
-.course_btn {
+#course-title {
+    margin: 0;
+    padding: 0;
     margin-top: 30px;
+}
+
+.btn__container {
+    margin-top: 50px;
+}
+
+.course_btn {
     font-family: var(--sec-font);
     outline: none;
     border: solid 2px transparent;
@@ -150,6 +164,7 @@ body, html {
     font-size: 20px;
     border-radius: 80px;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .course_btn:hover {
@@ -163,7 +178,6 @@ body, html {
 }
 
 .course__container {
-    padding-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
