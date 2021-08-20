@@ -249,7 +249,7 @@ hr {
     width: 100%;
     max-width: 100%;
     height: 150px;
-    margin-top: 15px;
+    margin-top: 50px;
     margin-left: 0;
     padding-left: 0;
 }
@@ -321,12 +321,15 @@ hr {
 .social__icon--link {
     color: black;
     font-size: 24px;
+    transition: all 0.2s ease;
 }
 
 .social__media {
     max-width: 1000px;
     width: 100%;
     max-height: 100px;
+    transition: all 0.2s ease;
+    margin-bottom: 100px;
 }
 
 .social__media--wrap {
@@ -336,6 +339,7 @@ hr {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
+    transition: all 0.2s ease;
 }
 
 .social__icons {
@@ -343,6 +347,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     width: 240px;
+    transition: all 0.2s ease;
 }
 
 .website__rights {

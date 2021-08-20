@@ -7,6 +7,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="queries.css" />
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+        crossorigin="anonymous"
+        />
         <title>Kev Web - Home</title>
     </head>
     <body>
