@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="queries.css" />
         <title>Kev Web</title>
     </head>
-    <body onload="document.body.style.opacity='1'">
+    <body>
         <nav>
             <div class="navbar__container" id="navbar">
                 <div class="navbar__logo">
@@ -72,9 +72,6 @@
         </div>
     </body>
     <script>
-        $(document).ready(function() {
-            $("body").slideDown(2000);
-        });
         function getfile(data) {
             $("body").load(data, function() {
                 $(this)
