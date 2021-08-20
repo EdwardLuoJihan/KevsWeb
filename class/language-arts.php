@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="../style.css" type="text/css">
         <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
         crossorigin="anonymous"
         />
-        <title>Kev Web - Math</title>
+        <title>Kev Web - Language Arts</title>
     </head>
     <body onload="document.body.style.opacity='1'">
         <div id="page">
@@ -30,21 +30,29 @@
                     </div>
                     <ul class="navbar__menu">
                         <li class="navbar__item">
-                            <a href="home" onclick="getfile('home')" class="navbar__links" id="home">Home</a>
+                            <a href="../home" onclick="getfile('home')" class="navbar__links" id="home">Home</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
+                            <a href="../about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="classes" onclick="getfile('classes')" class="navbar__links" id="highlighted">Classes</a>
+                            <a href="../classes" onclick="getfile('classes')" class="navbar__links" id="highlighted">Classes</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
+        <div class="main" id="home">
+          <div class="course__container">
+                
+          </div>
+        </div>
         <hr>
+      <script>
+        history.pushState(null, null "language-arts");
+      </script>
     </body>
-    <div class="footer__container" id="home-footer">
+    <div class="footer__container" id="home-footer" style="margin-top: 80px;">
         <div class="footer__links">
           <div class="footer__link--wrapper">
             <div class="footer__link--items" id="footer-contact">
@@ -67,13 +75,13 @@
                 Navigate
               </h1>
               <p>
-                <a href="home" onclick="getfile('home')" class="navbar__links" id="footer-home-page">Home</a>
+                <a href="../home" onclick="getfile('home')" class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="about" onclick="getfile('about')" class="navbar__links" id="footer-about-page">About Us</a>
+                <a href="../about" onclick="getfile('about')" class="navbar__links" id="footer-about-page">About Us</a>
               </p>
               <p>
-              <a href="classes" onclick="getfile('classes')" class="navbar__links" id="footer-class-page">Classes</a>
+              <a href="../classes" onclick="getfile('classes')" class="navbar__links" id="footer-class-page">Classes</a>
               </p>
             </div>
           </div>

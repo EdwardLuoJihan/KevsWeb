@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="styles/style.css" />
         <link rel="stylesheet" href="queries.css" />
         <link
         rel="stylesheet"
@@ -41,6 +41,11 @@
                 </ul>
             </div>
         </nav>
+        <div class="main" id="home">
+          <div class="course__container">
+                
+          </div>
+        </div>
         <hr>
     </body>
     <div class="footer__container" id="home-footer" style="margin-top: 80px;">

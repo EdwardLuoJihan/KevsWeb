@@ -129,7 +129,7 @@ body {
 
 .hero {
     font-family: var(--main-font);
-    background: url('imgs/bg.jpg'), var(--blue);
+    background: url('bg.jpg'), var(--blue);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;

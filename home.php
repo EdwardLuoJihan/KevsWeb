@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="styles/style.css" />
         <link rel="stylesheet" href="queries.css" />
         <link
         rel="stylesheet"
@@ -61,7 +61,7 @@
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
                         dignissimos at? Fuga, nobis molestiae!
                     </p>
-                    <a href="math" class='learnmore'>Learn more <span>»</span></a>
+                    <a href="class/math" class='learnmore'>Learn more <span>»</span></a>
                 </div>
                 
                 <div class="text-box" id="left">
@@ -72,7 +72,7 @@
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
                         dignissimos at? Fuga, nobis molestiae!
                     </p>
-                    <a href="language-arts" class='learnmore'>Learn more <span>»</span></a>
+                    <a href="class/language-arts" class='learnmore'>Learn more <span>»</span></a>
                 </div>
             </div>
             <hr>
