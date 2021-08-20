@@ -43,7 +43,7 @@
         </nav>
         <hr>
     </body>
-    <div class="footer__container" id="home-footer">
+    <div class="footer__container" id="home-footer" style="margin-top: 80px;">
         <div class="footer__links">
           <div class="footer__link--wrapper">
             <div class="footer__link--items" id="footer-contact">

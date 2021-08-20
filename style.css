@@ -386,3 +386,11 @@ hr {
 #twitter:hover {
     color: #00acee;
 }
+
+#email {
+    transition: all 0.2s ease;
+}
+
+#email:hover {
+    color: var(--blue)!important;
+}

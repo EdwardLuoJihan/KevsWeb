@@ -89,7 +89,7 @@
                 <a
                   href=""
                   target="_blank"
-                  class = "email"
+                  id = "email"
                   >example123@gmail.com</a
                 >
               </p>
