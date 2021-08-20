@@ -223,3 +223,24 @@ hr {
     border-bottom: 2px solid #D3D3D3;
     margin: 0 50px;
 }
+
+.learnmore {
+    font-family: var(--sec-font);
+    text-decoration: none;
+    color: var(--blue);
+    transition: all 0.2s ease;
+}
+
+.learnmore:hover {
+    color: var(--dblue);
+}
+
+.learnmore span {
+    margin-left: 5px;
+    position:absolute;
+    transition: all 0.5s ease;
+}
+
+.learnmore:hover span {
+    transform: translate(5px,0);
+}

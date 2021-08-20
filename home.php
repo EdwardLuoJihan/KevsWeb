@@ -48,27 +48,29 @@
         <div class="main" id="home">
             <div class="course__container">
                 <div class="text-box" id="left">
-                    <h1>Dummy text</h1>
+                    <h1>Math</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
                         hic porro, aliquam repudiandae accusantium iste facere vel
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
                         dignissimos at? Fuga, nobis molestiae!
                     </p>
+                    <a href="math" class='learnmore'>Learn more <span>»</span></a>
                 </div>
                 
                 <div class="text-box" id="left">
-                    <h1>Dummy text</h1>
+                    <h1>Language Arts</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
                         hic porro, aliquam repudiandae accusantium iste facere vel
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
-                        dignissimos at? Fuga, nobis molestiae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum eligendi itaque asperiores cumque voluptate at sunt, sint explicabo velit ullam aperiam saepe ducimus molestiae corrupti obcaecati sed assumenda voluptatum quas.
+                        dignissimos at? Fuga, nobis molestiae!
                     </p>
-                    
+                    <a href="language-arts" class='learnmore'>Learn more <span>»</span></a>
                 </div>
             </div>
             <hr>
+            
         </div>
     </body>
     <script>
