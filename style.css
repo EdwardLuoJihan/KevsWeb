@@ -244,3 +244,140 @@ hr {
 .learnmore:hover span {
     transform: translate(5px,0);
 }
+
+.footer__container {
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footer__container {
+    padding: 2rem;
+    padding-left: 0;
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--sec-font);
+    padding-right: 0;
+}
+
+#footer__logo {
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer__links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link--wrapper {
+    display: flex;
+}
+
+.footer__link--items {
+    margin: 16px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer__link--items h2 {
+    margin-bottom: 16px;
+    color: black;
+}
+
+.footer__link--items h1 {
+    font-family: var(--main-font);
+}
+
+.footer__link--items a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    margin: 5px;
+    transition: all 0.3 ease-out;
+}
+
+.footer__link--items a:hover {
+    color: var(--lightg);
+    transition: 0.3 ease-out;
+}
+
+.social__icon--link {
+    color: black;
+    font-size: 24px;
+}
+
+.social__media {
+    max-width: 1000px;
+    width: 100%;
+    max-height: 100px;
+}
+
+.social__media--wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.website__rights {
+    color: black;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-contact p {
+    margin: 5px;
+}
+
+#insta:hover {
+    color: #d6249f !important;
+    color: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285AEB 90%
+    ) !important;
+}
+
+#youtube:hover {
+    color:red;
+}
+
+#github:hover {
+    color: #333;
+}
+
+#twitter:hover {
+    color: #00acee;
+}
