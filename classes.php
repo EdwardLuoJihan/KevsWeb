@@ -91,7 +91,7 @@
                 ><i class="fab fa-youtube"></i
               ></a>
               <a
-                href=""
+                href="https://github.com/EdwardLuoJihan/KevsWeb"
                 target="_blank"
                 id="github"
                 class="social__icon--link"
