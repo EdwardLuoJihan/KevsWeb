@@ -47,11 +47,31 @@
         </nav>
         <div class="main" id="home">
           <div class="classes__container">
-            <div class="text-box" id="center">
-              <h1></h1>
+            <div class="text-box" id="center" style="margin-bottom: 20px;">
+              <h1><i class="fas fa-calculator" id="mla"></i></h1>
+              <h1>Math</h1>
+              <h2>$10 per class/ $15 for both classes</h2>
               <p>
-                  
+                Classes take place virtually every Saturday at 4:00 p.m. MDT to 5:00 p.m. MDT on Google Meet.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis soluta, corporis similique dolores iure cum est sed quam inventore veritatis molestias laudantium unde perferendis, nobis aliquid quo consectetur fugit exercitationem?
               </p>
+              <div class="btn__container">
+                <a href="classes/math" class="courses_btn">View Class</a>
+              </div>
+            </div>
+            <div class="text-box" id="center" style="margin-bottom: 20px;">
+              <h1><i class="fas fa-book" id="mla"></i></h1>
+              <h1>Language Arts</h1>
+              <h2>$10 per class/ $15 for both classes</h2>
+              <p>
+                Classes take place virtually every Sunday at 4:00 p.m. MDT to 5:00 p.m. MDT on Google Meet.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis soluta, corporis similique dolores iure cum est sed quam inventore veritatis molestias laudantium unde perferendis, nobis aliquid quo consectetur fugit exercitationem?
+              </p>
+              <div class="btn__container">
+                <a href="classes/language-arts" class="courses_btn">View Class</a>
+              </div>
             </div>
           </div>
         </div>

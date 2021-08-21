@@ -192,6 +192,24 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.classes__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.class__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.pfp {
+    margin-top: 25px;border: 3px solid black;
+}
+
+#mla {
+    font-size: 70px;
+}
+
 .about__container {
     display: grid;
     grid-template-rows: 1fr;
@@ -226,6 +244,12 @@ body {
 .text-box h1 {
     font-family: var(--main-font);
     font-size: 50px;
+    margin: 0;
+}
+
+.text-box h2 {
+    font-family: var(--sec-font);
+    font-size: 20px;
     margin: 0;
 }
 
@@ -454,4 +478,23 @@ hr {
 
 #middle-p {
     font-size: 17px;
+}
+
+.courses_btn {
+    font-family: var(--sec-font);
+    outline: none;
+    border: solid 2px transparent;
+    color: white;
+    padding: 20px;
+    background: var(--blue);
+    font-size: 20px;
+    border-radius: 80px;
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+
+.courses_btn:hover {
+    background-color: var(--dblue);
+    border: 2px solid var(--dblue);
+    cursor: pointer;
 }

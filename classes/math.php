@@ -47,8 +47,25 @@
             </nav>
         </div>
         <div class="main" id="home">
-          <div class="course__container">
-                
+          <div class="class__container">
+            <div class="text-box" id="center" style="margin-bottom: 20px;">
+              <h1><i class="fas fa-calculator" id="mla"></i></h1>
+              <h1>Math</h1>
+              <h2>Price: $10 per class/ $15 for both classes.</h2>
+              <br>
+              <h2>Time: Every Saturday 4:00 p.m. MDT to 5:00 p.m. MDT.</h2>
+              <br>
+              <h2>Place: Google Meet.</h2>
+              <br>
+              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore omnis magnam vitae quam voluptas earum provident, fuga accusantium minus illo laborum quasi eos repudiandae reiciendis, enim quod ipsam delectus!</h2>
+              <img src="kevin.png" alt="kevin-picture" class="pfp">
+            </div>
+            <div class="text-box" id="center" style="margin-top: 120px;margin-right: 200px;">
+              <h1>Register now!</h1>
+              <div class="btn__container" id="center">
+                  <a href="" class="courses_btn">Sign Up</a>
+              </div>
+            </div>
           </div>
         </div>
         <hr>
