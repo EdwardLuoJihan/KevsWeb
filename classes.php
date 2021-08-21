@@ -46,8 +46,13 @@
             </div>
         </nav>
         <div class="main" id="home">
-          <div class="course__container">
-                
+          <div class="classes__container">
+            <div class="text-box" id="center">
+              <h1></h1>
+              <p>
+                  
+              </p>
+            </div>
           </div>
         </div>
         <hr>

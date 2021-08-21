@@ -47,8 +47,13 @@
             </nav>
         </div>
         <div class="main" id="home">
-          <div class="course__container">
-                
+          <div class="about__container">
+            <div class="text-box" id="center" style="margin: 25px;">
+              <h1>About Us</h1>
+              <p id="bigger-p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id perspiciatis impedit debitis quisquam veritatis porro facilis tenetur, delectus illum architecto quia optio maiores, esse qui minus at cupiditate repudiandae accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugiat ea aliquid cupiditate iusto, porro soluta dolores quasi nemo adipisci voluptas voluptatem ipsa ducimus nisi consequuntur repellendus, minus recusandae inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab deserunt velit qui voluptatum, voluptate sit ut rerum natus necessitatibus autem officia, eveniet aliquam! Provident ab rerum corporis voluptates alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates libero laborum minus optio veritatis consectetur in, commodi laudantium est. Eveniet totam in aut sed perferendis. Dignissimos ab nesciunt laborum perspiciatis?
+              </p>
+            </div> 
           </div>
         </div>
         <hr>

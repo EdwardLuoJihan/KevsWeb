@@ -59,7 +59,7 @@
             <div class="course__container">
                 <div class="text-box" id="left">
                     <h1>Math</h1>
-                    <p>
+                    <p id="middle-p">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
                         hic porro, aliquam repudiandae accusantium iste facere vel
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
@@ -70,7 +70,7 @@
                 
                 <div class="text-box" id="left">
                     <h1>Language Arts</h1>
-                    <p>
+                    <p id="middle-p">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
                         hic porro, aliquam repudiandae accusantium iste facere vel
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
