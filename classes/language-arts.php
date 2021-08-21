@@ -12,7 +12,7 @@
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
         crossorigin="anonymous"
         />
-        <title>Kev Web - Language Arts</title>
+        <title>Kev Web - Math</title>
     </head>
     <body onload="document.body.style.opacity='1'">
         <div id="page">
@@ -38,7 +38,7 @@
                         <div class="navbar__item" id="dropdown">
                           <a href="../classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
                           <div id="dropdown-content">
-                            <a href="math" class="navbar__links--classes">Math</a>
+                            <a href="math" class="navbar__links--classes" id="math">Math</a>
                             <a href="language-arts" class="navbar__links--classes" id="highlighted">Language Arts</a>
                           </div>
                         </div>
@@ -47,13 +47,31 @@
             </nav>
         </div>
         <div class="main" id="home">
-          <div class="course__container">
-                
+          <div class="class__container">
+            <div class="text-box" id="center" style="margin-bottom: 20px;">
+              <h1><i class="fas fa-book" id="mla"></i></h1>
+              <h1>Language Arts</h1>
+              <h2>Price: $10 per class/ $15 for both classes.</h2>
+              <br>
+              <h2>Time: Every Sunday 4:00 p.m. MDT to 5:00 p.m. MDT.</h2>
+              <br>
+              <h2>Place: Google Meet.</h2>
+              <br>
+              <h2>Teacher: Dan Zhang</h2>
+              <br>
+              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore omnis magnam vitae quam voluptas earum provident, fuga accusantium minus illo laborum quasi eos repudiandae reiciendis, enim quod ipsam delectus!</h2>
+            </div>
+            <div class="text-box" id="center" style="margin-top: 120px;margin-right: 200px;">
+              <h1>Register now!</h1>
+              <div class="btn__container" id="center">
+                  <a href="" class="courses_btn">Sign Up</a>
+              </div>
+            </div>
           </div>
         </div>
         <hr>
       <script>
-        history.pushState(null, null "language-arts");
+        window.history.pushState(null, null, "language-arts");
       </script>
     </body>
     <div class="footer__container" id="home-footer" style="margin-top: 80px;">

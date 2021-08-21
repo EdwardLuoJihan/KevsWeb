@@ -57,8 +57,9 @@
               <br>
               <h2>Place: Google Meet.</h2>
               <br>
+              <h2>Teacher: Kevin Huang</h2>
+              <br>
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore omnis magnam vitae quam voluptas earum provident, fuga accusantium minus illo laborum quasi eos repudiandae reiciendis, enim quod ipsam delectus!</h2>
-              <img src="kevin.png" alt="kevin-picture" class="pfp">
             </div>
             <div class="text-box" id="center" style="margin-top: 120px;margin-right: 200px;">
               <h1>Register now!</h1>
