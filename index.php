@@ -30,14 +30,18 @@
                 </div>
                 <ul class="navbar__menu">
                     <li class="navbar__item">
-                        <a href="home" onclick="getfile('home')" class="navbar__links" id="highlighted">Home</a>
+                      <a href="home" onclick="getfile('home')" class="navbar__links" id="highlighted">Home</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
+                      <a href="about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
                     </li>
-                    <li class="navbar__item">
-                        <a href="classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
-                    </li>
+                    <div class="navbar__item" id="dropdown">
+                      <a href="classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
+                      <div id="dropdown-content">
+                        <a href="classes/math" class="navbar__links--classes">Math</a>
+                        <a href="classes/language-arts" class="navbar__links--classes">Language Arts</a>
+                      </div>
+                    </div>
                 </ul>
             </div>
         </nav>
@@ -55,24 +59,24 @@
             <div class="course__container">
                 <div class="text-box" id="left">
                     <h1>Math</h1>
-                    <p>
+                    <p id="middle-p">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
                         hic porro, aliquam repudiandae accusantium iste facere vel
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
                         dignissimos at? Fuga, nobis molestiae!
                     </p>
-                    <a href="math" class='learnmore'>Learn more <span>»</span></a>
+                    <a href="classes/math" class='learnmore'>Learn more <span>»</span></a>
                 </div>
                 
                 <div class="text-box" id="left">
                     <h1>Language Arts</h1>
-                    <p>
+                    <p id="middle-p">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
                         hic porro, aliquam repudiandae accusantium iste facere vel
                         voluptatem enim voluptates rerum amet, architecto culpa temporibus
                         dignissimos at? Fuga, nobis molestiae!
                     </p>
-                    <a href="language-arts" class='learnmore'>Learn more <span>»</span></a>
+                    <a href="classes/language-arts" class='learnmore'>Learn more <span>»</span></a>
                 </div>
             </div>
             <hr>
@@ -89,6 +93,7 @@
                 <a
                   href=""
                   target="_blank"
+                  id = "email"
                   >example123@gmail.com</a
                 >
               </p>
@@ -115,7 +120,7 @@
         <section class="social__media">
           <div class="social__media--wrap">
             <div class="social__icons">
-              <a href="" target="_blank" class="social__icon--link" id="insta"
+              <a href="https://www.instagram.com/mathenglishaid/" target="_blank" class="social__icon--link" id="insta"
                 ><i class="fab fa-instagram"></i
               ></a>
               <a
@@ -140,7 +145,15 @@
         </section>
       </div>
     <script>
-        history.pushState(null, null, "home");
-        $('body').load("home");
+        function getfile(data) {
+            $("body").load(data, function() {
+                $(this)
+                    .css("opacity", 0)
+                    .stop()
+                    .animate({ opacity: 1 });
+            $(document).ready(function() {
+                $("body").slideDown(2000);
+            });
+        }
     </script>
 </html>

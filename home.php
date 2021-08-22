@@ -120,7 +120,7 @@
         <section class="social__media">
           <div class="social__media--wrap">
             <div class="social__icons">
-              <a href="" target="_blank" class="social__icon--link" id="insta"
+              <a href="https://www.instagram.com/mathenglishaid/" target="_blank" class="social__icon--link" id="insta"
                 ><i class="fab fa-instagram"></i
               ></a>
               <a
