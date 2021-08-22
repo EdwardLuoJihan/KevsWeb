@@ -12,17 +12,18 @@
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
         crossorigin="anonymous"
         />
-        <title>Kev Web - About Us</title>
+        <title>Math & English Aid - About Us</title>
     </head>
     <body onload="document.body.style.opacity='1'">
         <div id="page">
             <nav>
                 <div class="navbar__container" id="navbar">
-                    <div class="navbar__logo">
-                        <h2 id="title">
-                            <strong>KevWeb</strong>
-                        </h2>
-                    </div>
+                  <div class="navbar__logo">
+                    <h2 id="title">
+                    <img src="logo.png" alt="logo" />
+                        <strong>Math & English Aid</strong>
+                    </h2>
+                  </div>
                     <div class="navbar__toggle" id="mobile-menu" style="z-index: 99;">
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -112,7 +113,7 @@
                 class="social__icon--link"
                 ><i class="fab fa-github"></i
               ></a>
-              <a href="" target="_blank" class="social__icon--link" id="twitter"
+              <a href="https://twitter.com/math_englishaid" target="_blank" class="social__icon--link" id="twitter"
                 ><i class="fab fa-twitter"></i
               ></a>
             </div>

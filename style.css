@@ -495,3 +495,7 @@ hr {
     border: 2px solid var(--dblue);
     cursor: pointer;
 }
+
+#title {
+    margin: 20px 0 20px 0;
+}
