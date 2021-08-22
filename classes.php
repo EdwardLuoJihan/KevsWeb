@@ -21,7 +21,7 @@
             <div class="navbar__container" id="navbar">
                 <div class="navbar__logo">
                     <h2 id="title">
-                    <img src="logo.png" alt="logo" />
+                    <a href="home"><img src="logo.png" alt="logo" /></a>
                         <strong>Math & English Aid</strong>
                     </h2>
                 </div>
