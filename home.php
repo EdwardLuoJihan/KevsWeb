@@ -7,6 +7,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="queries.css" />
+        <link rel="icon" href="logo.png" />
         <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"

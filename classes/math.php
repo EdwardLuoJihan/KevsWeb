@@ -12,6 +12,7 @@
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
         crossorigin="anonymous"
         />
+        <link rel="icon" href="../logo.png" />
         <title>Math & English Aid - Math</title>
     </head>
     <body onload="document.body.style.opacity='1'">
