@@ -14,7 +14,6 @@
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
         crossorigin="anonymous"
         />
-        <meta http-equiv = "refresh" content = " 0 ; url = home"/>
         <title>Math & English Aid - Home</title>
     </head>
     <body>
@@ -22,7 +21,7 @@
             <div class="navbar__container" id="navbar">
                 <div class="navbar__logo">
                     <h2 id="title">
-                    <a href="home"><a href="home"><img src="logo.png" alt="logo" /></a></a>
+                    <a href="home"><img src="logo.png" alt="logo" /></a>
                         <strong>Math & English Aid</strong>
                     </h2>
                 </div>
@@ -50,11 +49,8 @@
         </nav>
         <div class="hero">
             <div class="hero__container">
-                <p class="hero__heading">
-                    Math & English Aid
-                </p>
                 <p class="hero__description">
-                  "Before anything else, preparation is the key to success."<br>- Alexander Graham Bell
+                    Dummy Text
                 </p>
                 <div class="btn__container">
                     <a href="classes" class="course_btn">Classes</a>
@@ -151,15 +147,6 @@
         </section>
       </div>
     <script>
-        function getfile(data) {
-            $("body").load(data, function() {
-                $(this)
-                    .css("opacity", 0)
-                    .stop()
-                    .animate({ opacity: 1 });
-            $(document).ready(function() {
-                $("body").slideDown(2000);
-            });
-        }
+        window.location.href = "home";
     </script>
 </html>
