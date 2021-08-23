@@ -14,9 +14,9 @@
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
         crossorigin="anonymous"
         />
-        <title>Math & English Aid - Classes</title>
+        <title>Math & English Aid - Home</title>
     </head>
-    <body onload="document.body.style.opacity='1'">
+    <body>
         <nav>
             <div class="navbar__container" id="navbar">
                 <div class="navbar__logo">
@@ -32,13 +32,13 @@
                 </div>
                 <ul class="navbar__menu">
                     <li class="navbar__item">
-                        <a href="home"  class="navbar__links" id="home">Home</a>
+                      <a href="home" onclick="getfile('home')" class="navbar__links" id="highlighted">Home</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="about" class="navbar__links" id="about">About Us</a>
+                      <a href="about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
                     </li>
                     <div class="navbar__item" id="dropdown">
-                      <a href="classes" class="navbar__links" id="highlighted">Classes</a>
+                      <a href="classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
                       <div id="dropdown-content">
                         <a href="classes/math" class="navbar__links--classes">Math</a>
                         <a href="classes/language-arts" class="navbar__links--classes">Language Arts</a>
@@ -47,39 +47,44 @@
                 </ul>
             </div>
         </nav>
-        <div class="main" id="home">
-          <div class="classes__container">
-            <div class="text-box" id="center" style="margin-bottom: 20px;">
-              <h1><i class="fas fa-calculator" id="mla"></i></h1>
-              <h1>Math</h1>
-              <h2>$10 per class/ $15 for both classes</h2>
-              <p>
-                Classes take place virtually every Saturday at 4:00 p.m. MDT to 5:00 p.m. MDT on Google Meet.
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis soluta, corporis similique dolores iure cum est sed quam inventore veritatis molestias laudantium unde perferendis, nobis aliquid quo consectetur fugit exercitationem?
-              </p>
-              <div class="btn__container">
-                <a href="classes/math" class="courses_btn">View Class</a>
-              </div>
+        <div class="hero">
+            <div class="hero__container">
+                <p class="hero__description">
+                    Dummy Text
+                </p>
+                <div class="btn__container">
+                    <a href="classes" class="course_btn">Classes</a>
+                </div>
             </div>
-            <div class="text-box" id="center" style="margin-bottom: 20px;">
-              <h1><i class="fas fa-book" id="mla"></i></h1>
-              <h1>Language Arts</h1>
-              <h2>$10 per class/ $15 for both classes</h2>
-              <p>
-                Classes take place virtually every Sunday at 4:00 p.m. MDT to 5:00 p.m. MDT on Google Meet.
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis soluta, corporis similique dolores iure cum est sed quam inventore veritatis molestias laudantium unde perferendis, nobis aliquid quo consectetur fugit exercitationem?
-              </p>
-              <div class="btn__container">
-                <a href="classes/language-arts" class="courses_btn">View Class</a>
-              </div>
-            </div>
-          </div>
         </div>
-        <hr>
+        <div class="main" id="home">
+            <div class="course__container">
+                <div class="text-box" id="left">
+                    <h1>Math</h1>
+                    <p id="middle-p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                        hic porro, aliquam repudiandae accusantium iste facere vel
+                        voluptatem enim voluptates rerum amet, architecto culpa temporibus
+                        dignissimos at? Fuga, nobis molestiae!
+                    </p>
+                    <a href="classes/math" class='learnmore'>Learn more <span>»</span></a>
+                </div>
+                
+                <div class="text-box" id="left">
+                    <h1>Language Arts</h1>
+                    <p id="middle-p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                        hic porro, aliquam repudiandae accusantium iste facere vel
+                        voluptatem enim voluptates rerum amet, architecto culpa temporibus
+                        dignissimos at? Fuga, nobis molestiae!
+                    </p>
+                    <a href="classes/language-arts" class='learnmore'>Learn more <span>»</span></a>
+                </div>
+            </div>
+            <hr>
+        </div>
     </body>
-    <div class="footer__container" id="home-footer" style="margin-top: 80px;">
+    <div class="footer__container" id="home-footer">
         <div class="footer__links">
           <div class="footer__link--wrapper">
             <div class="footer__link--items" id="footer-contact">
@@ -103,13 +108,13 @@
                 Navigate
               </h1>
               <p>
-                <a href="home"  class="navbar__links" id="footer-home-page">Home</a>
+                <a href="home" onclick="getfile('home')" class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="about" class="navbar__links" id="footer-about-page">About Us</a>
+                <a href="about" onclick="getfile('about')" class="navbar__links" id="footer-about-page">About Us</a>
               </p>
               <p>
-              <a href="classes" class="navbar__links" id="footer-class-page">Classes</a>
+              <a href="classes" onclick="getfile('classes')" class="navbar__links" id="footer-class-page">Classes</a>
               </p>
             </div>
           </div>
@@ -128,7 +133,7 @@
                 ><i class="fab fa-youtube"></i
               ></a>
               <a
-                href="https://github.com/EdwardLuoJihan/M_E_Aid_Source"
+                href="https://github.com/EdwardLuoJihan/KevsWeb"
                 target="_blank"
                 id="github"
                 class="social__icon--link"
@@ -141,4 +146,7 @@
           </div>
         </section>
       </div>
+    <script>
+        window.history.pushState(null, null, "math");
+    </script>
 </html>

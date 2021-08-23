@@ -16,7 +16,7 @@
         />
         <title>Math & English Aid - Home</title>
     </head>
-    <body>
+    <body onload="document.body.style.opacity='1'">
         <nav>
             <div class="navbar__container" id="navbar">
                 <div class="navbar__logo">
@@ -32,13 +32,13 @@
                 </div>
                 <ul class="navbar__menu">
                     <li class="navbar__item">
-                      <a href="home" onclick="getfile('home')" class="navbar__links" id="highlighted">Home</a>
+                      <a href="home"  class="navbar__links" id="highlighted">Home</a>
                     </li>
                     <li class="navbar__item">
-                      <a href="about" onclick="getfile('about')" class="navbar__links" id="about">About Us</a>
+                      <a href="about" class="navbar__links" id="about">About Us</a>
                     </li>
                     <div class="navbar__item" id="dropdown">
-                      <a href="classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
+                      <a href="classes" class="navbar__links" id="classes">Classes</a>
                       <div id="dropdown-content">
                         <a href="classes/math" class="navbar__links--classes">Math</a>
                         <a href="classes/language-arts" class="navbar__links--classes">Language Arts</a>
@@ -111,13 +111,13 @@
                 Navigate
               </h1>
               <p>
-                <a href="home" onclick="getfile('home')" class="navbar__links" id="footer-home-page">Home</a>
+                <a href="home"  class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="about" onclick="getfile('about')" class="navbar__links" id="footer-about-page">About Us</a>
+                <a href="about" class="navbar__links" id="footer-about-page">About Us</a>
               </p>
               <p>
-              <a href="classes" onclick="getfile('classes')" class="navbar__links" id="footer-class-page">Classes</a>
+              <a href="classes" class="navbar__links" id="footer-class-page">Classes</a>
               </p>
             </div>
           </div>
@@ -136,7 +136,7 @@
                 ><i class="fab fa-youtube"></i
               ></a>
               <a
-                href="https://github.com/EdwardLuoJihan/KevsWeb"
+                href="https://github.com/EdwardLuoJihan/M_E_Aid_Source"
                 target="_blank"
                 id="github"
                 class="social__icon--link"

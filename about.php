@@ -32,13 +32,13 @@
                     </div>
                     <ul class="navbar__menu">
                         <li class="navbar__item">
-                            <a href="home" onclick="getfile('home')" class="navbar__links" id="home">Home</a>
+                            <a href="home"  class="navbar__links" id="home">Home</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="about" onclick="getfile('about')" class="navbar__links" id="highlighted">About Us</a>
+                            <a href="about" class="navbar__links" id="highlighted">About Us</a>
                         </li>
                         <div class="navbar__item" id="dropdown">
-                          <a href="classes" onclick="getfile('classes')" class="navbar__links" id="classes">Classes</a>
+                          <a href="classes" class="navbar__links" id="classes">Classes</a>
                           <div id="dropdown-content">
                             <a href="classes/math" class="navbar__links--classes">Math</a>
                             <a href="classes/language-arts" class="navbar__links--classes">Language Arts</a>
@@ -55,6 +55,27 @@
               <p id="bigger-p">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id perspiciatis impedit debitis quisquam veritatis porro facilis tenetur, delectus illum architecto quia optio maiores, esse qui minus at cupiditate repudiandae accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugiat ea aliquid cupiditate iusto, porro soluta dolores quasi nemo adipisci voluptas voluptatem ipsa ducimus nisi consequuntur repellendus, minus recusandae inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab deserunt velit qui voluptatum, voluptate sit ut rerum natus necessitatibus autem officia, eveniet aliquam! Provident ab rerum corporis voluptates alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates libero laborum minus optio veritatis consectetur in, commodi laudantium est. Eveniet totam in aut sed perferendis. Dignissimos ab nesciunt laborum perspiciatis?
               </p>
+            </div> 
+            <div class="text-box" id="center" style="margin: 25px;margin-top: 0;">
+              <h1>Our Team</h1>
+              <div class="teampictures">
+                <div class="bios" id="kevin">
+                  <div class="pfpcontainer" id="kevincont">
+                    <img src="classes/kevin.png" alt="kevin" class="pfp" id="center">
+                  </div>
+                  <h1>Kevin Huang</h1>
+                  <h2>Math Instructor</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae minus facere nam suscipit vel doloribus quam eius voluptatibus, aliquam rem iste omnis laborum ipsam modi beatae inventore voluptas quisquam?</p>
+                </div>
+                <div class="bios" id="dan">
+                  <div class="pfpcontainer" id="dancont">
+                    <img src="https://cdn.imgbin.com/9/14/20/imgbin-toy-story-2-buzz-lightyear-to-the-rescue-rapunzel-mr-potato-head-character-lovely-eggs-ms-potato-head-digital-illustration-fUkrzfUnDNZMLPXSwbyZ9cJUT.jpg" alt="dan" class="pfp" id="center">
+                  </div>
+                  <h1>Dan Zhang</h1>
+                  <h2>English Instructor</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae minus facere nam suscipit vel doloribus quam eius voluptatibus, aliquam rem iste omnis laborum ipsam modi beatae inventore voluptas quisquam?</p>
+                </div>
+              </div>
             </div> 
           </div>
         </div>
@@ -84,13 +105,13 @@
                 Navigate
               </h1>
               <p>
-                <a href="home" onclick="getfile('home')" class="navbar__links" id="footer-home-page">Home</a>
+                <a href="home"  class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="about" onclick="getfile('about')" class="navbar__links" id="footer-about-page">About Us</a>
+                <a href="about" class="navbar__links" id="footer-about-page">About Us</a>
               </p>
               <p>
-              <a href="classes" onclick="getfile('classes')" class="navbar__links" id="footer-class-page">Classes</a>
+              <a href="classes" class="navbar__links" id="footer-class-page">Classes</a>
               </p>
             </div>
           </div>
@@ -109,7 +130,7 @@
                 ><i class="fab fa-youtube"></i
               ></a>
               <a
-                href="https://github.com/EdwardLuoJihan/KevsWeb"
+                href="https://github.com/EdwardLuoJihan/M_E_Aid_Source"
                 target="_blank"
                 id="github"
                 class="social__icon--link"
