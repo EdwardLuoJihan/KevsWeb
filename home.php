@@ -49,8 +49,11 @@
         </nav>
         <div class="hero">
             <div class="hero__container">
+                <p class="hero__heading">
+                    Math & English Aid
+                </p>
                 <p class="hero__description">
-                    Dummy Text
+                  "Before anything else, preparation is the key to success."<br>-Alexander Graham Bell
                 </p>
                 <div class="btn__container">
                     <a href="classes" class="course_btn">Classes</a>
