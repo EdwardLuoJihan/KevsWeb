@@ -73,6 +73,10 @@ body {
 .navbar__logo {
     margin: auto 0;
     text-align: right;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     vertical-align: middle;
 }
   
