@@ -16,6 +16,8 @@
 
 body, html {
     margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -166,7 +168,7 @@ body {
 }
 
 .btn__container {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .course_btn {
@@ -273,7 +275,7 @@ hr {
 }
 
 .learnmore span {
-    margin-left: 5px;
+    margin-left: 2px;
     position:absolute;
     transition: all 0.5s ease;
 }
@@ -503,4 +505,30 @@ hr {
 
 #title {
     margin: 20px 0 20px 0;
+}
+
+::-webkit-scrollbar-track
+{
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    border-radius: 8px;
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+	background-color: var(--dblue);	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
 }
