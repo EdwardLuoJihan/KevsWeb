@@ -426,6 +426,10 @@ hr {
     color: #00acee;
 }
 
+#facebook:hover {
+    color: #3b5998;
+}
+
 #email {
     transition: all 0.2s ease;
 }

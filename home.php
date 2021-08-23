@@ -15,6 +15,7 @@
         crossorigin="anonymous"
         />
         <title>Math & English Aid - Home</title>
+        <script src="https://use.fontawesome.com/609ade8089.js"></script>
     </head>
     <body onload="document.body.style.opacity='1'">
         <nav>
@@ -145,6 +146,8 @@
               <a href="https://twitter.com/math_englishaid" target="_blank" class="social__icon--link" id="twitter"
                 ><i class="fab fa-twitter"></i
               ></a>
+              <a href="" target="_blank" class="social__icon--link" id="facebook"
+                ><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             </div>
           </div>
         </section>
