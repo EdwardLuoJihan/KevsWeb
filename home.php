@@ -150,15 +150,6 @@
         </section>
       </div>
     <script>
-        function getfile(data) {
-            $("body").load(data, function() {
-                $(this)
-                    .css("opacity", 0)
-                    .stop()
-                    .animate({ opacity: 1 });
-            $(document).ready(function() {
-                $("body").slideDown(2000);
-            });
-        }
+        window.history.pushState(null, null, "home");
     </script>
 </html>
