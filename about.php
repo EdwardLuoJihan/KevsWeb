@@ -69,7 +69,7 @@
                 </div>
                 <div class="bios" id="dan">
                   <div class="pfpcontainer" id="dancont">
-                    <img src="https://cdn.imgbin.com/9/14/20/imgbin-toy-story-2-buzz-lightyear-to-the-rescue-rapunzel-mr-potato-head-character-lovely-eggs-ms-potato-head-digital-illustration-fUkrzfUnDNZMLPXSwbyZ9cJUT.jpg" alt="dan" class="pfp" id="center">
+                    <img src="blank.png" alt="dan" class="pfp" id="center">
                   </div>
                   <h1>Dan Zhang</h1>
                   <h2>English Instructor</h2>
