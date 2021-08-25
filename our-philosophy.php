@@ -13,7 +13,7 @@
         crossorigin="anonymous"
         />
         <link rel="icon" href="logo.png" />
-        <title>Math & English Aid - About Us</title>
+        <title>Math & English Aid - Our Philosophy</title>
         <script src="https://use.fontawesome.com/609ade8089.js"></script>
     </head>
     <body onload="document.body.style.opacity='1'">
@@ -36,13 +36,13 @@
                             <a href="home"  class="navbar__links" id="home">Home</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="about" class="navbar__links" id="highlighted">About Us</a>
+                            <a href="our-philosophy" class="navbar__links" id="highlighted">Our Philosophy</a>
                         </li>
                         <div class="navbar__item" id="dropdown">
                           <a href="classes" class="navbar__links" id="classes">Classes</a>
                           <div id="dropdown-content">
                             <a href="classes/math" class="navbar__links--classes">Math</a>
-                            <a href="classes/language-arts" class="navbar__links--classes">Language Arts</a>
+                            <a href="classes/english" class="navbar__links--classes">English</a>
                           </div>
                         </div>
                     </ul>
@@ -50,14 +50,7 @@
             </nav>
         </div>
         <div class="main" id="home">
-          <div class="about__container">
-            <div class="text-box" id="center" style="margin: 25px;">
-              <h1>About Us</h1>
-              <p id="bigger-p">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id perspiciatis impedit debitis quisquam veritatis porro facilis tenetur, delectus illum architecto quia optio maiores, esse qui minus at cupiditate repudiandae accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugiat ea aliquid cupiditate iusto, porro soluta dolores quasi nemo adipisci voluptas voluptatem ipsa ducimus nisi consequuntur repellendus, minus recusandae inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab deserunt velit qui voluptatum, voluptate sit ut rerum natus necessitatibus autem officia, eveniet aliquam! Provident ab rerum corporis voluptates alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates libero laborum minus optio veritatis consectetur in, commodi laudantium est. Eveniet totam in aut sed perferendis. Dignissimos ab nesciunt laborum perspiciatis?
-              </p>
-            </div> 
-            <div class="text-box" id="center" style="margin: 25px;margin-top: 0;">
+          <div class="text-box" id="center" style="margin: 25px;margin-top: 0;">
               <h1>Our Team</h1>
               <div class="teampictures">
                 <div class="bios" id="kevin">
@@ -77,6 +70,13 @@
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae minus facere nam suscipit vel doloribus quam eius voluptatibus, aliquam rem iste omnis laborum ipsam modi beatae inventore voluptas quisquam?</p>
                 </div>
               </div>
+            </div> 
+          <div class="about__container">
+            <div class="text-box" id="center" style="margin: 25px;">
+              <h1>Our Philosophy</h1>
+              <p id="bigger-p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id perspiciatis impedit debitis quisquam veritatis porro facilis tenetur, delectus illum architecto quia optio maiores, esse qui minus at cupiditate repudiandae accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugiat ea aliquid cupiditate iusto, porro soluta dolores quasi nemo adipisci voluptas voluptatem ipsa ducimus nisi consequuntur repellendus, minus recusandae inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab deserunt velit qui voluptatum, voluptate sit ut rerum natus necessitatibus autem officia, eveniet aliquam! Provident ab rerum corporis voluptates alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates libero laborum minus optio veritatis consectetur in, commodi laudantium est. Eveniet totam in aut sed perferendis. Dignissimos ab nesciunt laborum perspiciatis?
+              </p>
             </div> 
           </div>
         </div>
@@ -109,7 +109,7 @@
                 <a href="home"  class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="about" class="navbar__links" id="footer-about-page">About Us</a>
+                <a href="our-philosophy" class="navbar__links" id="footer-about-page">Our Philosophy</a>
               </p>
               <p>
               <a href="classes" class="navbar__links" id="footer-class-page">Classes</a>

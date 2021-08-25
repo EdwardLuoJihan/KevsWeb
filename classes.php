@@ -36,13 +36,13 @@
                         <a href="home"  class="navbar__links" id="home">Home</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="about" class="navbar__links" id="about">About Us</a>
+                        <a href="our-philosophy" class="navbar__links" id="about">Our Philosophy</a>
                     </li>
                     <div class="navbar__item" id="dropdown">
                       <a href="classes" class="navbar__links" id="highlighted">Classes</a>
                       <div id="dropdown-content">
                         <a href="classes/math" class="navbar__links--classes">Math</a>
-                        <a href="classes/language-arts" class="navbar__links--classes">Language Arts</a>
+                        <a href="classes/english" class="navbar__links--classes">English</a>
                       </div>
                     </div>
                 </ul>
@@ -65,7 +65,7 @@
             </div>
             <div class="text-box" id="center" style="margin-bottom: 20px;">
               <h1><i class="fas fa-book" id="mla"></i></h1>
-              <h1>Language Arts</h1>
+              <h1>English</h1>
               <h2>$10 per class/ $15 for both classes</h2>
               <p>
                 Classes take place virtually every Sunday at 4:00 p.m. MDT to 5:00 p.m. MDT on Google Meet.
@@ -73,7 +73,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis soluta, corporis similique dolores iure cum est sed quam inventore veritatis molestias laudantium unde perferendis, nobis aliquid quo consectetur fugit exercitationem?
               </p>
               <div class="btn__container">
-                <a href="classes/language-arts" class="courses_btn">View Class</a>
+                <a href="classes/english" class="courses_btn">View Class</a>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@
                 <a href="home"  class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="about" class="navbar__links" id="footer-about-page">About Us</a>
+                <a href="our-philosophy" class="navbar__links" id="footer-about-page">Our Philosophy</a>
               </p>
               <p>
               <a href="classes" class="navbar__links" id="footer-class-page">Classes</a>

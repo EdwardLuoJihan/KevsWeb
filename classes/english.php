@@ -36,13 +36,13 @@
                             <a href="../home"  class="navbar__links" id="home">Home</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="../about" class="navbar__links" id="about">About Us</a>
+                            <a href="../our-philosophy" class="navbar__links" id="about">Our Philosophy</a>
                         </li>
                         <div class="navbar__item" id="dropdown">
                           <a href="../classes" class="navbar__links" id="classes">Classes</a>
                           <div id="dropdown-content">
                             <a href="math" class="navbar__links--classes" id="math">Math</a>
-                            <a href="language-arts" class="navbar__links--classes" id="highlighted">Language Arts</a>
+                            <a href="english" class="navbar__links--classes" id="highlighted">English</a>
                           </div>
                         </div>
                     </ul>
@@ -53,8 +53,8 @@
           <div class="class__container">
             <div class="text-box" id="center" style="margin-bottom: 20px;">
               <h1><i class="fas fa-book" id="mla"></i></h1>
-              <h1>Language Arts</h1>
-              <h2>Price: $10 per class/ $15 for both classes.</h2>
+              <h1>English</h1>
+              <h2>Price: $10 per class.</h2>
               <br>
               <h2>Time: Every Sunday 4:00 p.m. MDT to 5:00 p.m. MDT.</h2>
               <br>
@@ -67,14 +67,14 @@
             <div class="text-box" id="center" style="margin-top: 120px;margin-right: 200px;">
               <h1>Register now!</h1>
               <div class="btn__container" id="center">
-                  <a href="" class="courses_btn">Sign Up</a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfE99XJ2Kv5HPeq1UYgp__Bv6LypHoFSvAZzQnmCg0_g5p30w/viewform?usp=sf_link" class="courses_btn">Sign Up</a>
               </div>
             </div>
           </div>
         </div>
         <hr>
       <script>
-        window.history.pushState(null, null, "language-arts");
+        window.history.pushState(null, null, "english");
       </script>
     </body>
     <div class="footer__container" id="home-footer" style="margin-top: 80px;">
@@ -104,7 +104,7 @@
                 <a href="../home"  class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="../about" class="navbar__links" id="footer-about-page">About Us</a>
+                <a href="../our-philosophy" class="navbar__links" id="footer-about-page">Our Philosophy</a>
               </p>
               <p>
               <a href="../classes" class="navbar__links" id="footer-class-page">Classes</a>
