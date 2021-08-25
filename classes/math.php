@@ -60,7 +60,7 @@
               <br>
               <h2>Place: Google Meet.</h2>
               <br>
-              <h2>Teacher: Kevin Huang</h2>
+              <h2>Teacher: <a href="../our-philosophy" id = "email" style="text-decoration:none;color:black;transition: all 0.4s ease;">Kevin Huang</a></h2>
               <br>
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore omnis magnam vitae quam voluptas earum provident, fuga accusantium minus illo laborum quasi eos repudiandae reiciendis, enim quod ipsam delectus!</h2>
             </div>
