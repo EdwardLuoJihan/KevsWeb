@@ -39,7 +39,7 @@
                       <a href="our-philosophy" class="navbar__links" id="about">Our Philosophy</a>
                     </li>
                     <div class="navbar__item" id="dropdown">
-                      <a href="classes" class="navbar__links" id="classes">Classes</a>
+                      <a href="classes" onclick="return false;" class="navbar__links" id="classes">Classes</a>
                       <div id="dropdown-content">
                         <a href="classes/math" class="navbar__links--classes">Math</a>
                         <a href="classes/english" class="navbar__links--classes">English</a>
@@ -66,10 +66,7 @@
                 <div class="text-box" id="left">
                     <h1>Math</h1>
                     <p id="middle-p">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-                        hic porro, aliquam repudiandae accusantium iste facere vel
-                        voluptatem enim voluptates rerum amet, architecto culpa temporibus
-                        dignissimos at? Fuga, nobis molestiae!
+                    Math is used in everyday life. Shopping at the grocery store, cooking, and managing time all require good math skills. Math is also the base of many other subjects, such as physics or chemistry. In other words, you can’t dodge math in life. It will come up sooner or later, and the only way you can conquer math is to prepare for it in advance, which is what Math & English Aid is fully committed and dedicated to doing.
                     </p>
                     <a href="classes/math" class='learnmore'>Learn more <span>»</span></a>
                 </div>
@@ -77,10 +74,8 @@
                 <div class="text-box" id="left">
                     <h1>English</h1>
                     <p id="middle-p">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-                        hic porro, aliquam repudiandae accusantium iste facere vel
-                        voluptatem enim voluptates rerum amet, architecto culpa temporibus
-                        dignissimos at? Fuga, nobis molestiae!
+                    English Language Arts is simply necessary for all post-secondary programs and courses. There is no way around this cold, hard fact. Even if you become a scientist, you still won’t be able to leave English behind. Dale Carnegie states that 
+“Financial success is due to 15% knowledge and 85% the ability to express ideas, to assume leadership and to arouse leadership among people.” The whole purpose behind English Language Arts is to develop a strong ability to communicate with people. In other words, your English knowledge must be vast and strong if you want to succeed in life. Our team at Math & English Aid is devoted to pushing you further into your English Language Arts journey.
                     </p>
                     <a href="classes/english" class='learnmore'>Learn more <span>»</span></a>
                 </div>

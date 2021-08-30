@@ -39,10 +39,10 @@
                             <a href="../our-philosophy" class="navbar__links" id="about">Our Philosophy</a>
                         </li>
                         <div class="navbar__item" id="dropdown">
-                          <a href="../classes" class="navbar__links" id="classes">Classes</a>
+                          <a href="" onclick="return false;" class="navbar__links" id="classes">Classes</a>
                           <div id="dropdown-content">
-                            <a href="math" class="navbar__links--classes" id="math">Math</a>
-                            <a href="english" class="navbar__links--classes" id="highlighted">English</a>
+                            <a href="math" class="navbar__links--classes">Math</a>
+                            <a href="english" class="navbar__links--classes">English</a>
                           </div>
                         </div>
                     </ul>

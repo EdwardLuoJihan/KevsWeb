@@ -39,9 +39,9 @@
                             <a href="../our-philosophy" class="navbar__links" id="about">Our Philosophy</a>
                         </li>
                         <div class="navbar__item" id="dropdown">
-                          <a href="../classes" class="navbar__links" id="classes">Classes</a>
+                          <a href="" onclick="return false;" class="navbar__links" id="classes">Classes</a>
                           <div id="dropdown-content">
-                            <a href="math" class="navbar__links--classes" id="highlighted">Math</a>
+                            <a href="math" class="navbar__links--classes">Math</a>
                             <a href="english" class="navbar__links--classes">English</a>
                           </div>
                         </div>
@@ -62,7 +62,7 @@
               <br>
               <h2>Teacher: <a href="../our-philosophy" id = "email" style="text-decoration:none;color:black;transition: all 0.4s ease;">Kevin Huang</a></h2>
               <br>
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore omnis magnam vitae quam voluptas earum provident, fuga accusantium minus illo laborum quasi eos repudiandae reiciendis, enim quod ipsam delectus!</h2>
+              <h2>This class will teach you about the grade 7 math concepts and principles that you’ll learn about, so you can have a head start over your classmates once you start math class in junior high. Taking this class will guarantee that you won’t have to work as hard in math in grade 7, giving you more opportunities to pursue your extracurricular activities, and giving you more time to prepare for your other courses.</h2>
             </div>
             <div class="text-box" id="center" style="margin-top: 120px;margin-right: 200px;">
               <h1>Register now!</h1>

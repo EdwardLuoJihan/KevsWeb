@@ -39,12 +39,12 @@
                             <a href="our-philosophy" class="navbar__links" id="highlighted">Our Philosophy</a>
                         </li>
                         <div class="navbar__item" id="dropdown">
-                          <a href="classes" class="navbar__links" id="classes">Classes</a>
-                          <div id="dropdown-content">
-                            <a href="classes/math" class="navbar__links--classes">Math</a>
-                            <a href="classes/english" class="navbar__links--classes">English</a>
-                          </div>
-                        </div>
+                      <a href="" onclick="return false;" class="navbar__links" id="classes">Classes</a>
+                      <div id="dropdown-content">
+                        <a href="classes/math" class="navbar__links--classes">Math</a>
+                        <a href="classes/english" class="navbar__links--classes">English</a>
+                      </div>
+                    </div>
                     </ul>
                 </div>
             </nav>
@@ -59,7 +59,7 @@
                   </div>
                   <h1>Kevin Huang</h1>
                   <h2>Math Instructor</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae minus facere nam suscipit vel doloribus quam eius voluptatibus, aliquam rem iste omnis laborum ipsam modi beatae inventore voluptas quisquam?</p>
+                  <p>My name is Kevin Huang, and I am 15 years old. I was born in Montreal, Quebec, but my family and I moved to Edmonton when I was just two months old. I developed a passion for math in grade 3, when I was able to use my knowledge to solve simple problems. Being able to combine concepts about math and numbers to solve long problems just seemed so intriguing to me. My love for math continues till this day, and I have been rewarded with very good success in this subject throughout my junior high years. Math is very fun; you just have to discover the beauty of this subject. If you register for our math class, you will develop a desire to learn math, and become prepared to take on math in junior high.</p>
                 </div>
                 <div class="bios" id="dan">
                   <div class="pfpcontainer" id="dancont">
@@ -67,7 +67,8 @@
                   </div>
                   <h1>Dan Zhang</h1>
                   <h2>English Instructor</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae minus facere nam suscipit vel doloribus quam eius voluptatibus, aliquam rem iste omnis laborum ipsam modi beatae inventore voluptas quisquam?</p>
+                  <p>My name is Dan Zhang, a 15 year old born in Edmonton, Alberta. From a young age, I believed that writing is an important universal skill, which everyone should be familiar with. Although my writing in elementary could be considered average, I dedicated myself to improving my writing skills within my junior high years. This resulted in me successfully closing my junior high chapter with a 99% at the end of grade 9.
+Writing is a form of art; a challenging form of art which takes dedication and practice to master. If you join our English class, we will break down the grade 7 Language Art curriculum and help you get a head start in junior high.</p>
                 </div>
               </div>
             </div> 
@@ -75,7 +76,17 @@
             <div class="text-box" id="center" style="margin: 25px;">
               <h1>About Us</h1>
               <p id="bigger-p">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id perspiciatis impedit debitis quisquam veritatis porro facilis tenetur, delectus illum architecto quia optio maiores, esse qui minus at cupiditate repudiandae accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, fugiat ea aliquid cupiditate iusto, porro soluta dolores quasi nemo adipisci voluptas voluptatem ipsa ducimus nisi consequuntur repellendus, minus recusandae inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab deserunt velit qui voluptatum, voluptate sit ut rerum natus necessitatibus autem officia, eveniet aliquam! Provident ab rerum corporis voluptates alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates libero laborum minus optio veritatis consectetur in, commodi laudantium est. Eveniet totam in aut sed perferendis. Dignissimos ab nesciunt laborum perspiciatis?
+              Here at Math & English Aid, we believe that preparation drives success. Since numeracy and literature are two important, universal skills that are used on a daily basis, we are offering Math and English classes to grade 5-6 students attending school in Edmonton. 
+<br><br>
+Why should you choose our class over other classes? Although we aren’t as knowledgeable in our fields as other professional tutors, we recently lived through junior high, capping off our grade 9 year with a perfect 100% average in Math, and an astonishing 99% in English. To us, junior high was a journey; an intimidating experience where preparation defines success. Our classes will prepare you step by step to ensure you are prepared for your endeavours in junior high numeracy and literature. We wish to share with you both our successes and struggles while simultaneously setting an engaging atmosphere to make learning English and Math fun.
+<br><br>
+If you have any questions, feel free to contact us by email at <a
+                  href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrgmVXwQSBKMGgKBKQDngSCvCQVJNJMGHzRLcWlLmDKBCRHFVXGJHWHfHqSgCVHMxQlJxV"
+                  target="_blank"
+                  id = "email"
+                  style="color: black;text-decoration: none;"
+                  >mathenglishaid@gmail.com</a
+                > or text us at . We hope to see you in class!
               </p>
             </div> 
           </div>

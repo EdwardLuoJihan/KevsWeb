@@ -553,7 +553,7 @@ hr {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 140px;
 }
 
 .pfp {
@@ -562,13 +562,95 @@ hr {
 }
 
 .bios {
-    width: 320px;
+    width: 500px;
 }
 
 #kevin {
-    margin-left: 40%;
+    margin-left: 25%;
 }
 
 #dan {
     margin-left: 160px;
+}
+
+#wave {
+    position: relative;
+}
+
+.top-wave {
+    bottom: 0;
+}
+  
+#wave .top-wave {
+    width: 100%;
+    position: relative;
+    height: 8.9rem;
+    top: 0;
+    background: url("about-top-wave.png");
+    -webkit-animation: topWaveMovement 10s linear infinite;
+            animation: topWaveMovement 10s linear infinite;
+}
+
+#wave .top-wave::before {
+    content: "";
+    width: 100%;
+    height: 143px;
+    background: url("about-top-wave.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    -webkit-animation: topWaveMovementContinue 12s linear infinite;
+            animation: topWaveMovementContinue 12s linear infinite;
+}
+
+#wave .top-wave::after {
+    content: "";
+    width: 100%;
+    height: 143px;
+    background: url("about-top-wave.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    -webkit-animation: topWaveMovementContinue 13s linear infinite;
+            animation: topWaveMovementContinue 13s linear infinite;
+    -webkit-animation-delay: -5000ms;
+            animation-delay: -5000ms;
+}
+
+@-webkit-keyframes topWaveMovement {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 1360px;
+    }
+}
+
+@keyframes topWaveMovement {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 1360px;
+    }
+}
+
+@-webkit-keyframes topWaveMovementContinue {
+    0% {
+        background-position: 1360px;
+    }
+    100% {
+        background-position: 0;
+    }
+}
+
+@keyframes topWaveMovementContinue {
+    0% {
+        background-position: 1360px;
+    }
+    100% {
+        background-position: 0;
+    }
 }
