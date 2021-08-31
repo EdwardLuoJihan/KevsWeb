@@ -62,7 +62,7 @@
               <br>
               <h2>Teacher: <a href="../about-us" id = "email" style="text-decoration:none;color:black;transition: all 0.4s ease;">Dan Zhang</a></h2>
               <br>
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore omnis magnam vitae quam voluptas earum provident, fuga accusantium minus illo laborum quasi eos repudiandae reiciendis, enim quod ipsam delectus!</h2>
+              <h2>Our English class was built to break down grade 7 Language Arts concepts into bite sized chunks to ensure you have a head start over your classmates at the start of junior high. Students universally agree that English Language Arts is one of the harder courses among junior high. Joining this class means you will be able to learn grade 7 concepts early, ensuring that you won’t be as stressed in junior high.</h2>
             </div>
             <div class="text-box" id="center" style="margin-top: 120px;margin-right: 200px;">
               <h1>Register now!</h1>
