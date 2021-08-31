@@ -35,9 +35,6 @@
                     <li class="navbar__item">
                       <a href="home"  class="navbar__links" id="highlighted">Home</a>
                     </li>
-                    <li class="navbar__item">
-                      <a href="our-philosophy" class="navbar__links" id="about">Our Philosophy</a>
-                    </li>
                     <div class="navbar__item" id="dropdown">
                       <a href="classes" onclick="return false;" class="navbar__links" id="classes">Classes</a>
                       <div id="dropdown-content">
@@ -45,6 +42,9 @@
                         <a href="classes/english" class="navbar__links--classes">English</a>
                       </div>
                     </div>
+                    <li class="navbar__item">
+                      <a href="about-us" class="navbar__links" id="about">About Us</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -110,7 +110,7 @@
                 <a href="home"  class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="our-philosophy" class="navbar__links" id="footer-about-page">Our Philosophy</a>
+                <a href="about-us" class="navbar__links" id="footer-about-page">About Us</a>
               </p>
               <p>
               <a href="classes" class="navbar__links" id="footer-class-page">Classes</a>

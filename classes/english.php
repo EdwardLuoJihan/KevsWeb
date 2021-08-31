@@ -35,16 +35,16 @@
                         <li class="navbar__item">
                             <a href="../home"  class="navbar__links" id="home">Home</a>
                         </li>
-                        <li class="navbar__item">
-                            <a href="../our-philosophy" class="navbar__links" id="about">Our Philosophy</a>
-                        </li>
                         <div class="navbar__item" id="dropdown">
                           <a href="" onclick="return false;" class="navbar__links" id="classes">Classes</a>
                           <div id="dropdown-content">
                             <a href="math" class="navbar__links--classes">Math</a>
-                            <a href="english" class="navbar__links--classes">English</a>
+                            <a href="english" class="navbar__links--classes" id="highlighted">English</a>
                           </div>
                         </div>
+                        <li class="navbar__item">
+                            <a href="../about-us" class="navbar__links" id="about">About Us</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -60,7 +60,7 @@
               <br>
               <h2>Place: Google Meet.</h2>
               <br>
-              <h2>Teacher: <a href="../our-philosophy" id = "email" style="text-decoration:none;color:black;transition: all 0.4s ease;">Dan Zhang</a></h2>
+              <h2>Teacher: <a href="../about-us" id = "email" style="text-decoration:none;color:black;transition: all 0.4s ease;">Dan Zhang</a></h2>
               <br>
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore omnis magnam vitae quam voluptas earum provident, fuga accusantium minus illo laborum quasi eos repudiandae reiciendis, enim quod ipsam delectus!</h2>
             </div>
@@ -104,7 +104,7 @@
                 <a href="../home"  class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="../our-philosophy" class="navbar__links" id="footer-about-page">Our Philosophy</a>
+                <a href="../about-us" class="navbar__links" id="footer-about-page">About Us</a>
               </p>
               <p>
               <a href="../classes" class="navbar__links" id="footer-class-page">Classes</a>

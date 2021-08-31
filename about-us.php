@@ -13,7 +13,7 @@
         crossorigin="anonymous"
         />
         <link rel="icon" href="logo.png" />
-        <title>Math & English Aid - Our Philosophy</title>
+        <title>Math & English Aid - About Us</title>
         <script src="https://use.fontawesome.com/609ade8089.js"></script>
     </head>
     <body onload="document.body.style.opacity='1'">
@@ -32,20 +32,20 @@
                         <span class="bar"></span>
                     </div>
                     <ul class="navbar__menu">
-                        <li class="navbar__item">
-                            <a href="home"  class="navbar__links" id="home">Home</a>
-                        </li>
-                        <li class="navbar__item">
-                            <a href="our-philosophy" class="navbar__links" id="highlighted">Our Philosophy</a>
-                        </li>
-                        <div class="navbar__item" id="dropdown">
-                      <a href="" onclick="return false;" class="navbar__links" id="classes">Classes</a>
+                    <li class="navbar__item">
+                      <a href="home"  class="navbar__links" id="home">Home</a>
+                    </li>
+                    <div class="navbar__item" id="dropdown">
+                      <a href="classes" onclick="return false;" class="navbar__links" id="classes">Classes</a>
                       <div id="dropdown-content">
                         <a href="classes/math" class="navbar__links--classes">Math</a>
                         <a href="classes/english" class="navbar__links--classes">English</a>
                       </div>
                     </div>
-                    </ul>
+                    <li class="navbar__item">
+                      <a href="about-us" class="navbar__links" id="highlighted">About Us</a>
+                    </li>
+                </ul>
                 </div>
             </nav>
         </div>
@@ -120,7 +120,7 @@ If you have any questions, feel free to contact us by email at <a
                 <a href="home"  class="navbar__links" id="footer-home-page">Home</a>
               </p>
               <p>
-                <a href="our-philosophy" class="navbar__links" id="footer-about-page">Our Philosophy</a>
+                <a href="about-us" class="navbar__links" id="footer-about-page">About Us</a>
               </p>
               <p>
               <a href="classes" class="navbar__links" id="footer-class-page">Classes</a>
