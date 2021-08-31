@@ -112,20 +112,7 @@ If you have any questions, feel free to contact us by email at <a
                 420-690-4269
               </p>
             </div>
-            <div class="footer__link--items">
-              <h1>
-                Navigate
-              </h1>
-              <p>
-                <a href="home"  class="navbar__links" id="footer-home-page">Home</a>
-              </p>
-              <p>
-                <a href="about-us" class="navbar__links" id="footer-about-page">About Us</a>
-              </p>
-              <p>
-              <a href="classes" class="navbar__links" id="footer-class-page">Classes</a>
-              </p>
-            </div>
+            
           </div>
         </div>
         <section class="social__media">
